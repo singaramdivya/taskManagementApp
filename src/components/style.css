@@ -1,0 +1,147 @@
+.task-assignment {
+    margin: 20px;
+  }
+  
+  .task-inputs input {
+    margin-right: 10px;
+  }
+  
+  .task-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-list th, .task-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .task-list th {
+    background-color: #a19e9e;
+    color:black;
+  }
+  
+  .task-list button {
+    margin-right: 5px;
+  }
+
+.task-assignment-container {
+    margin-bottom: 20px;
+  }
+  .task-inputs{
+    margin-top: 20px;
+  }
+  .task-inputs input {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 200px;
+  }
+  
+  .task-inputs button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .task-inputs button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-inputs select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  .task-list{
+    margin-top: 20px;
+  }
+
+.not-assigned {
+    color: red;
+  }
+  
+  .pending {
+    color: orange;
+  }
+  
+  .completed {
+    color: green;
+  }
+  
+  .in-progress {
+    color: blue;
+  }
+  .app{
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .app h2{
+    text-align: center;
+  }
+  .sections{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .status-update-container{
+    display: flex;
+    flex-direction: row;
+    margin-left:100px;
+  }
+  .bar-chart-container{
+    margin-top: 100px;
+    text-align: center;
+  }
+  .bar{
+    display: flex;
+    flex-direction: row;
+  }
+  .bar1-container{
+    background-color: #8884d8;
+    height:20px;
+    width:20px;
+  }
+  .text1{
+    color:#8884d8
+  }
+  .bar2-container{
+    background-color: #82ca9d;
+    height:20px;
+    width:20px;
+  }
+  .text2{
+    color:#82ca9d;
+  }
+  .bar3-container{
+    background-color: #ffc658;
+    height:20px;
+    width:20px;
+  }
+  .text3{
+    color:#ffc658;
+  }
+  .error-text {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .error {
+    border: 1px solid red;
+  }
+  .input-container{
+    margin-right:20px;
+  }
+  .inprogress{
+    color:rgb(8, 56, 187);
+  }
